@@ -1,0 +1,17 @@
+.showCase {
+    background-color: var(--c-blue);
+    height: 1221px;
+}
+
+.showCase h1 {
+    font-size: 80px;
+}
+
+
+.services {
+    font-size: 80px;
+}
+
+.portfolio {
+    width: 487px;
+}
