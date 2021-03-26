@@ -1,0 +1,95 @@
+.team {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team h2 {
+    color: var(--fade);
+}
+
+.team h3 {
+    font-size: 32px;
+    color: var(--c-blue);
+    width: 400px;
+    margin-top: 0;
+}
+
+.members {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.members .member img {
+    width: 250px;
+    height: 400px;
+}
+
+.member #jam {
+    background-color: #FFC5B8;
+}
+
+.member #ema {
+    background-color: #FF5630;
+}
+
+.member #mike {
+    background-color: #3E4863;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+
+.details .name {
+    color: var(--c-blue);
+    font-size: 20px;
+    font-weight: inherit;
+    margin: 0;
+}
+
+.details .role {
+    color: var(--fade);
+    font-size: 20px;
+    width: 257px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member .contact img {
+    width: 14px;
+    height: 17px;
+    filter: grayscale(1);
+}
+
+.contactus {
+    margin-top: 9rem;
+    color: #CBD5F9;
+}
+
+input {
+    padding: 16px 48px 16px 48px;
+    border: 1px solid var(--c-blue);
+    border-radius: 34px;
+    color: var(--c-blue);
+}
+
+form {
+    display: inline-flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.teamContainer {
+    padding-top: 112px;
+    margin-bottom: 100px;
+}

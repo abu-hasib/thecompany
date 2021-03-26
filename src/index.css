@@ -20,11 +20,21 @@ code {
 }
 
 .container {
-  max-width: 1164px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
 :root {
-  --c-blue: #502EFF;
+  --c-blue: rgb(80, 46, 255);
+  --c-white: #FFFFFF;
+  --bg: #4C84FF;
+  --fade: #BEBEBE;
+}
+
+.btn-primary {
+  border-radius: 34px;
+  background: var(--c-blue);
+  color: var(--c-white);
+  margin-top: 24px;
 }

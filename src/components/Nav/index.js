@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import logo from "../../assets/logo.png";
+import Button from "../Button";
 
 const AppBar = () => {
   return (
@@ -10,19 +11,23 @@ const AppBar = () => {
       </div>
       <ul className="nav">
         <li>
-          <a href="">About</a>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="">Careers</a>
+          <a href="/">Services</a>
         </li>
         <li>
-          <a href="">Events</a>
+          <a href="/">Project</a>
         </li>
         <li>
-          <a href="">Products</a>
+          <a href="/">about us</a>
+        </li>
+
+        <li>
+          <a href="/">contact</a>
         </li>
         <li>
-          <a href="">Support</a>
+          <Button className="btn-primary">My Project</Button>
         </li>
       </ul>
     </nav>

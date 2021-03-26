@@ -1,0 +1,21 @@
+button {
+    display: inline-block;
+    min-height: 40px;
+    padding: 16px 48px 16px 48px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+  }
+
+  .start-btn {
+    margin-top: 0;
+  }

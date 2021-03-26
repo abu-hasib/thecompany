@@ -15,6 +15,10 @@
     margin: 0;
     float: right;
     color: #502EFF;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .nav li {
@@ -37,4 +41,8 @@
   
   .logo img {
     width: 96px;
+  }
+
+  .nav .btn-primary {
+    margin-top: 0;
   }

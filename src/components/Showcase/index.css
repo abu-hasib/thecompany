@@ -1,17 +1,55 @@
-.showCase {
-    background-color: var(--c-blue);
+.showcase {
+    background-color: rgba(80, 46, 255, .88);
     height: 1221px;
+    background-image: url('../../assets/grid-dot.png'), url('../../assets/lottadots.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 38% 28%, cover;
 }
 
-.showCase h1 {
-    font-size: 80px;
+.showcase h1 {
+    
+    margin: 0;
 }
 
-
-.services {
+.showcaseText {
     font-size: 80px;
+    font-weight: inherit;
+    padding-bottom: 10rem;
 }
 
 .portfolio {
-    width: 487px;
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--c-white);
 }
+
+.icon {
+    width: 50px;
+    height: 40px;
+    padding-right: 16px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    display: inline-flex;
+    padding:  48px 16px 48px 0;
+    width: 25%;
+    /* align-items: flex-start;
+    justify-items: space-between; */
+}
+.serviceText h4 {
+    margin-top: 0;
+}
+
+.serviceText .tagline {
+    width: 221px;
+}
+

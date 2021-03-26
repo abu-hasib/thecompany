@@ -1,13 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from "./components/Footer";
 import Hero from './components/Hero';
 import Showcase from './components/Showcase';
+import Team from "./components/Team";
 
 function App() {
   return (
     <>
       <Hero></Hero>
       <Showcase></Showcase>
+      <Team></Team>
+      <Footer></Footer>
     </>
   );
 }
