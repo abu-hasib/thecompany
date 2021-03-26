@@ -38,3 +38,21 @@ code {
   color: var(--c-white);
   margin-top: 24px;
 }
+
+.mobileWrapper {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: none;
+  }
+
+  .mobileWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

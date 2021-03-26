@@ -8,10 +8,15 @@ import Team from "./components/Team";
 function App() {
   return (
     <>
-      <Hero></Hero>
-      <Showcase></Showcase>
-      <Team></Team>
-      <Footer></Footer>
+        <div className="wrapper">
+          <Hero></Hero>
+          <Showcase></Showcase>
+          <Team></Team>
+          <Footer></Footer>
+        </div>
+        <div className="mobileWrapper">
+          <h1>This page is best viewed on a desktop...</h1>
+        </div>
     </>
   );
 }
